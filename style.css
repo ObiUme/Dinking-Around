@@ -1,16 +1,99 @@
 body {
-    background-color: rgb(61, 66, 66);
-    background-image: url("https://wallpapercave.com/wp/wp1828929.jpg");
+    background-color: black;
 }
-h1 {
+h1#heading {
     color:floralwhite;
-    text-align: left;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-family: cursive; 
+    font-size: 60px;
+    text-align: center;
+    margin-top: 1%;
 }
-div.aboutme {
-    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
-    font-size:medium;
-    color:linen;
-    border: 3px red groove;
+h2 {
+    font-family: cursive;
+    text-align: center;
+    color: floralwhite;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 1%;
+}
+h3 {
+    font-family: cursive;
+    text-align: center;
+    color: floralwhite;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 1%;
+}
+
+h4 {
+    font-family: cursive;
+    text-align: center;
+    color: floralwhite;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom:1%; 
+}
+
+div#headerlink {
+    text-align: center;
+    font-size:xx-large;
+}
+
+a {
+    color: floralwhite;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:none;
+    font-weight: 800;
+    margin-left:20px;
+    margin-right: 20px;
+}
+a:active {
+    color: red;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color:chartreuse;
+}
+.underline {
+    text-decoration: underline;
+}
+img.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#aboutme {
+    border: 3px solid gray;
+    text-align: center;
+    background-color: white;
+    font-family:cursive;
+    font-weight:900;
+    width: 50%;  
+    margin: auto;
+    font-size: 16px;
+}
+#contact {
+    border: 3px solid gray;
+    text-align: center;
+    background-color: white;
+    font-family:cursive;
+    font-weight:900;
+    width: 50%;  
+    margin: auto;
+    font-size: 16px;
+}
+#social {
+    border: 3px solid gray;
+    text-align: center;
+    background-color: white;
+    font-family:cursive;
+    font-weight:900;
+    width: 50%;  
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 5%;
 }
